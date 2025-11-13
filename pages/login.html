@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In • Startup Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/dark-mode.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+  </head>
+  <body>
+    <div data-include="../partials/header.html"></div>
+
+    <main class="section auth-section">
+      <div class="container auth-wrapper">
+        <div class="card auth-card">
+          <h1>Log in</h1>
+          <p class="auth-subtitle">Access your dashboard to manage landing pages and leads.</p>
+          <form>
+            <label class="form-field">
+              <span>Email</span>
+              <input type="email" name="email" placeholder="you@startup.com" required />
+            </label>
+            <label class="form-field">
+              <span>Password</span>
+              <input type="password" name="password" placeholder="••••••••" required />
+            </label>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+          <p class="auth-note">
+            New here? <a href="register.html">Create an account</a>.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.js"></script>
+    <script src="../assets/js/plugins.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/form-handler.js"></script>
+  </body>
+</html>
+

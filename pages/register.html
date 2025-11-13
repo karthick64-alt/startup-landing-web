@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account • Startup Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/dark-mode.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+  </head>
+  <body>
+    <div data-include="../partials/header.html"></div>
+
+    <main class="section auth-section">
+      <div class="container auth-wrapper">
+        <div class="card auth-card">
+          <h1>Create your account</h1>
+          <p class="auth-subtitle">Start building high-converting landing pages in minutes.</p>
+          <form>
+            <label class="form-field">
+              <span>Full name</span>
+              <input type="text" name="name" placeholder="Jane Doe" required />
+            </label>
+            <label class="form-field">
+              <span>Work email</span>
+              <input type="email" name="email" placeholder="you@startup.com" required />
+            </label>
+            <label class="form-field">
+              <span>Password</span>
+              <input type="password" name="password" placeholder="Create a password" required />
+            </label>
+            <label class="form-field">
+              <span>Team size</span>
+              <select name="team-size">
+                <option value="1-5">1-5</option>
+                <option value="6-15">6-15</option>
+                <option value="16-50">16-50</option>
+                <option value="50+">50+</option>
+              </select>
+            </label>
+            <button type="submit" class="btn btn-primary">Create account</button>
+          </form>
+          <p class="auth-note">
+            Already have an account? <a href="login.html">Log in</a>.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.js"></script>
+    <script src="../assets/js/plugins.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/form-handler.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,19 @@
+Startup Landing Page — Credits
+==============================
+
+Design & Development
+- Startup Landing template team
+
+Fonts
+- Poppins & Inter by Google Fonts (OFL license)
+
+Icons & Illustrations
+- Placeholder icons and logos sourced from unDraw and Heroicons (MIT license)
+
+Scripts
+- Vanilla JS utilities created for this template
+- Optional placeholders for Bootstrap and jQuery; replace with official builds for production use
+
+Special thanks
+- Early adopters and community feedback from the Startup Landing beta group
+

@@ -1,0 +1,93 @@
+/*
+ Dark mode overrides for Startup Landing Page.
+ Apply by toggling the `dark-mode` class on the `<body>` element.
+*/
+
+body.dark-mode {
+  --color-bg: #0f172a;
+  --color-dark: #f8fafc;
+  --color-muted: #cbd5f5;
+  --color-border: rgba(148, 163, 184, 0.35);
+  --color-white: #111827;
+  background-color: var(--color-bg);
+  color: var(--color-dark);
+}
+
+body.dark-mode header.hero {
+  background: linear-gradient(180deg, rgba(90, 103, 216, 0.25), transparent);
+}
+
+body.dark-mode .feature-card,
+body.dark-mode .pricing-card,
+body.dark-mode .testimonial-card,
+body.dark-mode .card,
+body.dark-mode .stat-card,
+body.dark-mode .team-card,
+body.dark-mode .blog-card {
+  background-color: rgba(15, 23, 42, 0.9);
+  border-color: rgba(99, 102, 241, 0.35);
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.35);
+}
+
+body.dark-mode .feature-card:hover,
+body.dark-mode .pricing-card:hover,
+body.dark-mode .testimonial-card:hover,
+body.dark-mode .blog-card:hover {
+  border-color: rgba(129, 140, 248, 0.6);
+}
+
+body.dark-mode .section-description,
+body.dark-mode .hero-subtitle {
+  color: rgba(226, 232, 240, 0.75);
+}
+
+body.dark-mode .pricing-card.popular {
+  background: linear-gradient(140deg, rgba(79, 70, 229, 0.95), rgba(129, 140, 248, 0.95));
+  color: #fff;
+}
+
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select {
+  background-color: rgba(15, 23, 42, 0.85);
+  color: var(--color-dark);
+  border-color: rgba(99, 102, 241, 0.35);
+}
+
+body.dark-mode input:focus,
+body.dark-mode textarea:focus,
+body.dark-mode select:focus {
+  box-shadow: 0 0 0 3px rgba(129, 140, 248, 0.25);
+}
+
+body.dark-mode .footer {
+  background: #020617;
+  color: rgba(226, 232, 240, 0.75);
+}
+
+body.dark-mode .footer-brand h3 {
+  color: #fff;
+}
+
+body.dark-mode .site-header {
+  background-color: rgba(15, 23, 42, 0.85);
+  border-bottom-color: rgba(148, 163, 184, 0.3);
+}
+
+body.dark-mode .nav-menu a {
+  color: rgba(226, 232, 240, 0.75);
+}
+
+body.dark-mode .nav-menu a.is-active,
+body.dark-mode .nav-menu a:hover {
+  color: #93c5fd;
+}
+
+body.dark-mode .nav-toggle-bar {
+  background: rgba(226, 232, 240, 0.85);
+}
+
+body.dark-mode .dark-toggle {
+  background: rgba(148, 163, 184, 0.3);
+}
+

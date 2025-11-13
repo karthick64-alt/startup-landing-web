@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentation • Startup Landing Page</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+  </head>
+  <body>
+    <main class="section">
+      <div class="container">
+        <h1 class="section-title">Startup Landing Documentation</h1>
+        <p class="section-description">Overview of the project structure, dependencies, and customization tips.</p>
+        <div class="card content">
+          <h2>Getting started</h2>
+          <ol>
+            <li>Open the `pages/` directory to access ready-to-use HTML files.</li>
+            <li>Update branding, copy, and images in the relevant sections.</li>
+            <li>Serve locally with any static server (e.g., `npx serve pages`).</li>
+          </ol>
+
+          <h2>Structure</h2>
+          <pre><code>assets/
+  css/      Core styles, responsive adjustments, and dark mode overrides
+  js/       Vanilla JS utilities, optional plugins, and form handler
+  img/      Organized folders for hero, features, team, and more
+pages/      Marketing and auth pages using partial includes
+partials/   Shared header, footer, sidebar, preloader, and modals
+docs/       Documentation, changelog, and credits
+          </code></pre>
+
+          <h2>Customization</h2>
+          <ul>
+            <li>Edit colors, shadows, and spacing via CSS variables in `assets/css/style.css`.</li>
+            <li>Toggle dark mode by setting the `dark-mode` class on `<body>` or using the header switch.</li>
+            <li>Use `data-animate` attributes (`fade-up`, `fade-in`, `scale-in`) to animate sections when in view.</li>
+            <li>Add new partials in `partials/` and include them with `data-include="../partials/your-file.html"`.</li>
+          </ul>
+
+          <h2>JavaScript utilities</h2>
+          <p>
+            `assets/js/main.js` loads partials, handles navigation, dark mode, and scroll animations. `home2.js` adds counters and tabs for the SaaS
+            variation. `form-handler.js` is a placeholder for integrating contact forms with third-party services (replace `FORM_ENDPOINT` with your API).
+          </p>
+
+          <h2>Assets</h2>
+          <p>Replace placeholder images in `assets/img/` with your own. Keep file names consistent to avoid updating markup paths.</p>
+
+          <h2>Deployment</h2>
+          <p>Upload the project to any static hosting provider (Netlify, Vercel, GitHub Pages). Ensure relative paths remain intact.</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+

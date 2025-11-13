@@ -1,0 +1,12 @@
+Startup Landing Page — Changelog
+================================
+
+v2.0.0 — November 2025
+----------------------
+- Initial release of Startup Landing Page project
+- Two home page variants (General and SaaS)
+- 15+ marketing pages with shared header/footer partials
+- Dark mode support and scroll animations
+- Modular JavaScript utilities for partial loading, modals, and counters
+- Documentation, changelog, and credits included
+
